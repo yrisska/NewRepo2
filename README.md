@@ -11,7 +11,7 @@ Add-migration InitialMigration
 Update-database
 ```
 
-Also you have to sign in (Auth implemented with Auth0), you can use google account for this.
+Also you have to sign in (Auth implemented with Auth0), you can use google account for this. Dont type anything in client secret field in Swagger, looks like its a bug that that field is appears.
 
 Besides main tasks there were added some functionality
 
